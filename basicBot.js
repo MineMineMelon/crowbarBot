@@ -236,13 +236,13 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "1.0.0",
+        version: "2.9.1",
         status: false,
-        name: "CrowbarBOT",
+        name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://github.com/MineMineMelon/crowbarBot/blob/master/basicBot.js",
+        scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://github.com/MineMineMelon/crowbarBot/blob/master/lang/en.json"
+        chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -250,8 +250,8 @@
         settings: {
             botName: "basicBot",
             language: "english",
-            chatLink: "https://github.com/MineMineMelon/crowbarBot/blob/master/lang/en.json"
-            scriptLink: "https://github.com/MineMineMelon/crowbarBot/blob/master/basicBot.js",
+            chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
+            scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
